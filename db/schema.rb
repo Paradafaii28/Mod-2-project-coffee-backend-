@@ -48,5 +48,4 @@ ActiveRecord::Schema.define(version: 2020_02_10_211822) do
   add_foreign_key "coffees", "blends"
   add_foreign_key "coffees", "coffee_roasters"
   add_foreign_key "coffees", "shops"
-  
 end
