@@ -1,7 +1,7 @@
 class CoffeesController < ApplicationController
     def index 
         @coffees = Coffee.all
-        render json: @coffees
+        render json: @coffees, include: [:blend, :coffee_roaster]
      end 
  
      def show
