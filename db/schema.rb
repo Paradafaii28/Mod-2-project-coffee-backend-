@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 2020_02_11_164734) do
     t.index ["coffee_roaster_id"], name: "index_coffees_on_coffee_roaster_id"
     t.index ["shop_id"], name: "index_coffees_on_shop_id"
   end
+  
 
   create_table "shops", force: :cascade do |t|
     t.string "name"
