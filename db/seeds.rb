@@ -3,8 +3,6 @@ CoffeeRoaster.destroy_all
 Blend.destroy_all
 Shop.destroy_all 
 
-
-
 #Shop Name 
 
 coffee_shop = Shop.create(name:"M&A Coffee House")
@@ -53,8 +51,8 @@ Coffee.create(coffee_roaster: huckleberry, blend: mrr, shop: coffee_shop, image:
 Coffee.create(coffee_roaster: huckleberry, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/CPghVLs/huck-lrd.png", stock: 2)
 Coffee.create(coffee_roaster: huckleberry, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/kxxwH56/huck-lrr.png", stock: 4)
 
-Coffee.create(coffee_roaster: bird_rock, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/6yj2244/barn-mrr.png", stock: 2)
-Coffee.create(coffee_roaster: bird_rock, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/6yj2244/barn-mrr.png", stock: 4)
+Coffee.create(coffee_roaster: bird_rock, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/WPfNdkC/bird-rock-drd.png", stock: 2)
+Coffee.create(coffee_roaster: bird_rock, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/Rpp5PKj/bird-rock-drr.png", stock: 4)
 Coffee.create(coffee_roaster: bird_rock, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/sFSy5tc/bird-rock-mrd.png", stock: 2)
 Coffee.create(coffee_roaster: bird_rock, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/YNwfNWw/bird-rock-mrr.png", stock: 4)
 Coffee.create(coffee_roaster: bird_rock, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/DgCj28L/bird-rock-lrd.png", stock: 2)
