@@ -14,6 +14,24 @@ class CoffeesController < ApplicationController
         coffee_roaster_id: params[:coffee_roaster],
          blend_id: params[:blend],
          shop_id: params[:shop])
-         render json: @coffee
+        #  render json: @coffee, status: :created
+        redirect_to "http://localhost:3001/coffees"
      end 
+
+     def destroy 
+        @coffee = Coffee.find(params[:id])
+        @coffee.destroy
+
+        render status: :no_content
+        redirect_to "http://localhost:3001/coffees"
+     end 
+
+     def update
+        @coffee = Coffee.find(params[:id])
+
+        @coffee.update(
+            name: params[:name]
+            )
+            render json: @coffee, status: :accepted 
+    end
 end
