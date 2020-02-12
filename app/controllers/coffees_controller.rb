@@ -12,8 +12,12 @@ class CoffeesController < ApplicationController
      def create
          @coffee = Coffee.create(
         coffee_roaster_id: params[:coffee_roaster],
-         blend_id: params[:blend],
-         shop_id: params[:shop])
+        blend_id: params[:blend],
+        shop_id: params[:shop],
+        stock: params[:stock],
+        price: params[:price],
+        image: params[:image]
+         )
          render json: @coffee
      end 
 end
