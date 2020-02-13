@@ -3,6 +3,7 @@ CoffeeRoaster.destroy_all
 Blend.destroy_all
 Shop.destroy_all 
 
+
 #Shop Name 
 
 coffee_shop = Shop.create(name:"M&A Coffee House")
