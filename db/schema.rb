@@ -1,5 +1,4 @@
 
-
 ActiveRecord::Schema.define(version: 2020_02_11_164734) do
 
   create_table "blends", force: :cascade do |t|
