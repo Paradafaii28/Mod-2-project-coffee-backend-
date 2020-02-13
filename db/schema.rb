@@ -1,5 +1,4 @@
-<<<<<<< HEAD
- # This file is auto-generated from the current state of the database. Instead
+# This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
 #
@@ -10,15 +9,17 @@
 # migrations use external dependencies or application code.
 #
 # It's strongly recommended that you check this file into your version control system.
-=======
 
->>>>>>> b10571989bcb673b88ba6d14fb433563334e0d95
-
-ActiveRecord::Schema.define(version: 2020_02_11_164734) do
+ActiveRecord::Schema.define(version: 2020_02_13_013229) do
 
   create_table "blends", force: :cascade do |t|
     t.string "name"
     t.string "flavor"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "carts", force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -40,7 +41,9 @@ ActiveRecord::Schema.define(version: 2020_02_11_164734) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "image"
+    t.integer "cart_id"
     t.index ["blend_id"], name: "index_coffees_on_blend_id"
+    t.index ["cart_id"], name: "index_coffees_on_cart_id"
     t.index ["coffee_roaster_id"], name: "index_coffees_on_coffee_roaster_id"
     t.index ["shop_id"], name: "index_coffees_on_shop_id"
   end
@@ -52,6 +55,7 @@ ActiveRecord::Schema.define(version: 2020_02_11_164734) do
   end
 
   add_foreign_key "coffees", "blends"
+  add_foreign_key "coffees", "carts"
   add_foreign_key "coffees", "coffee_roasters"
   add_foreign_key "coffees", "shops"
 end
