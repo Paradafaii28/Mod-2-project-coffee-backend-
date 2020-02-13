@@ -18,6 +18,23 @@ class CoffeesController < ApplicationController
         price: params[:price],
         image: params[:image]
          )
-         render json: @coffee
+         redirect_to "http://localhost:3001/inventory.html"
      end 
+
+     def destroy 
+        @coffee = Coffee.find(params[:id])
+        @coffee.destroy
+
+        render status: :no_content
+        redirect_to "http://localhost:3001/coffees"
+     end 
+
+     def update
+        @coffee = Coffee.find(params[:id])
+
+        @coffee.update(
+            name: params[:name]
+            )
+            render json: @coffee, status: :accepted 
+    end
 end
