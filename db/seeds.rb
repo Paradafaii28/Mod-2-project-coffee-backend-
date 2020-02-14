@@ -2,7 +2,10 @@ Coffee.destroy_all
 CoffeeRoaster.destroy_all 
 Blend.destroy_all
 Shop.destroy_all 
+Cart.destroy_all
 
+
+cart1= Cart.create()
 
 #Shop Name 
 
@@ -38,9 +41,9 @@ mrr = Blend.create(name:"Medium Roast Regular", flavor:"Deep caramel sweetness, 
 #Inventory of Coffee's 
 
 
-Coffee.create(coffee_roaster: allegro, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/f1V41y3/allegro-drd.png", price: 19.08, stock: 2)
-Coffee.create(coffee_roaster: allegro, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/jgZ7B6x/allegro-drr.png", price: 19.08, stock: 4)
-Coffee.create(coffee_roaster: allegro, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/S3HZS4S/allegro-mrd.png", price: 19.08, stock: 2)
+Coffee.create(coffee_roaster: allegro, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/f1V41y3/allegro-drd.png", price: 19.08, cart: cart1, stock: 2)
+Coffee.create(coffee_roaster: allegro, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/jgZ7B6x/allegro-drr.png", price: 19.08, cart: cart1, stock: 4)
+Coffee.create(coffee_roaster: allegro, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/S3HZS4S/allegro-mrd.png", price: 19.08, cart: cart1, stock: 2)
 Coffee.create(coffee_roaster: allegro, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/FJJZ6RR/allegro-mrr.png", price: 19.08, stock: 4)
 Coffee.create(coffee_roaster: allegro, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/FJJZ6RR/allegro-mrr.png", price: 19.08, stock: 2)
 Coffee.create(coffee_roaster: allegro, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/bdh12Xb/allegro-lrr.png", price: 19.08, stock: 4)
@@ -124,3 +127,4 @@ Coffee.create(coffee_roaster: cast, blend: mrd, shop: coffee_shop, image:"https:
 Coffee.create(coffee_roaster: cast, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/cyHwxJn/cast.png", price: 28.11, stock: 4)
 Coffee.create(coffee_roaster: cast, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/cyHwxJn/cast.png", price: 28.11, stock: 2)
 Coffee.create(coffee_roaster: cast, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/cyHwxJn/cast.png", price: 28.11, stock: 4)  
+
