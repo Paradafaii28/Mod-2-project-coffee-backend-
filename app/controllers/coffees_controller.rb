@@ -46,6 +46,7 @@ class CoffeesController < ApplicationController
             )
             render json: @coffee
     end 
+    
 
     def delete_from_cart 
         @coffee = Coffee.find(params[:coffee_id])
