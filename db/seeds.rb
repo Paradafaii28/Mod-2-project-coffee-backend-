@@ -41,6 +41,7 @@ mrr = Blend.create(name:"Medium Roast Regular", flavor:"Deep caramel sweetness, 
 #Inventory of Coffee's 
 
 
+
 Coffee.create(coffee_roaster: allegro, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/f1V41y3/allegro-drd.png", price: 19.08, cart: cart1, stock: 2)
 Coffee.create(coffee_roaster: allegro, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/jgZ7B6x/allegro-drr.png", price: 19.08, cart: cart1, stock: 4)
 Coffee.create(coffee_roaster: allegro, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/S3HZS4S/allegro-mrd.png", price: 19.08, cart: cart1, stock: 2)
@@ -82,9 +83,9 @@ Coffee.create(coffee_roaster: heart, blend: lrd, shop: coffee_shop, image:"https
 Coffee.create(coffee_roaster: heart, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/c38QmTK/heart-lrr.png", price: 17.56, stock: 4)
 
 
-Coffee.create(coffee_roaster: the_barn, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/6yj2244/barn-mrr.png", price: 24.79, stock: 4)
-Coffee.create(coffee_roaster: the_barn, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/PTtSsTm/barn-lrd.png", price: 24.79, stock: 2)
-Coffee.create(coffee_roaster: the_barn, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/NxpXymm/barn-lrr.png", price: 24.79, stock: 4)
+Coffee.create(coffee_roaster: the_barn, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/GJYNQL8/1.png", price: 24.79, stock: 4)
+Coffee.create(coffee_roaster: the_barn, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/GJYNQL8/1.png", price: 24.79, stock: 2)
+Coffee.create(coffee_roaster: the_barn, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/GJYNQL8/1.png", price: 24.79, stock: 4)
 
 Coffee.create(coffee_roaster: coffee_supreme, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/S7RBdB5/coffee-supreme.png", price: 15.50, stock: 2)
 Coffee.create(coffee_roaster: coffee_supreme, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/S7RBdB5/coffee-supreme.png", price: 15.50, stock: 4)
