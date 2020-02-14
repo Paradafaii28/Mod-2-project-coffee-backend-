@@ -21,13 +21,13 @@ class CoffeesController < ApplicationController
          redirect_to "http://localhost:3001/inventory.html"
      end 
 
-    #  def destroy 
-    #     @coffee = Coffee.find(params[:id])
-    #     @coffee.destroy
+     def destroy 
+        @coffee = Coffee.find(params[:id])
+        @coffee.destroy
 
-    #     render status: :no_content
-    #     redirect_to "http://localhost:3001/coffees"
-    #  end 
+        # render status: :no_content
+        redirect_to "http://localhost:3001/coffees"
+     end 
 
     #  def update
     #     @coffee = Coffee.find(params[:id])
@@ -44,8 +44,10 @@ class CoffeesController < ApplicationController
         @coffee.update(
             cart_id: params[:cart_id]
             )
+            
             render json: @coffee
     end 
+
 
     def delete_from_cart 
         @coffee = Coffee.find(params[:coffee_id])
