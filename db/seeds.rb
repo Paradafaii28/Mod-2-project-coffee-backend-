@@ -41,6 +41,7 @@ mrr = Blend.create(name:"Medium Roast Regular", flavor:"Deep caramel sweetness, 
 #Inventory of Coffee's 
 
 
+
 Coffee.create(coffee_roaster: allegro, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/f1V41y3/allegro-drd.png", price: 19.08, cart: cart1, stock: 2)
 Coffee.create(coffee_roaster: allegro, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/jgZ7B6x/allegro-drr.png", price: 19.08, cart: cart1, stock: 4)
 Coffee.create(coffee_roaster: allegro, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/S3HZS4S/allegro-mrd.png", price: 19.08, cart: cart1, stock: 2)
@@ -55,8 +56,6 @@ Coffee.create(coffee_roaster: huckleberry, blend: mrr, shop: coffee_shop, image:
 Coffee.create(coffee_roaster: huckleberry, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/CPghVLs/huck-lrd.png", price: 13.99, stock: 2)
 Coffee.create(coffee_roaster: huckleberry, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/kxxwH56/huck-lrr.png", price: 13.99, stock: 4)
 
-Coffee.create(coffee_roaster: bird_rock, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/WPfNdkC/bird-rock-drd.png", price: 21.89, stock: 2)
-Coffee.create(coffee_roaster: bird_rock, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/Rpp5PKj/bird-rock-drr.png", price: 21.89, stock: 4)
 Coffee.create(coffee_roaster: bird_rock, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/sFSy5tc/bird-rock-mrd.png", price: 21.89, stock: 2)
 Coffee.create(coffee_roaster: bird_rock, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/YNwfNWw/bird-rock-mrr.png", price: 21.89, stock: 4)
 Coffee.create(coffee_roaster: bird_rock, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/DgCj28L/bird-rock-lrd.png", price: 21.89, stock: 2)
@@ -70,9 +69,7 @@ Coffee.create(coffee_roaster: counter_culture, blend: mrr, shop: coffee_shop, im
 Coffee.create(coffee_roaster: counter_culture, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/StFzv5j/culture-lrd.png", price: 29.74, stock: 2)
 Coffee.create(coffee_roaster: counter_culture, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/hV6YHR9/culture-lrr.png", price: 29.74, stock: 4)
 
-Coffee.create(coffee_roaster: devocion, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/41frmNS/devocion-decaf.png", price: 22.30, stock: 2)
-Coffee.create(coffee_roaster: devocion, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/rs3jcHx/devocion-regular.png", price: 22.30, stock: 4)
-Coffee.create(coffee_roaster: devocion, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/41frmNS/devocion-decaf.png", price: 22.30, stock: 2)
+
 Coffee.create(coffee_roaster: devocion, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/rs3jcHx/devocion-regular.png", price: 22.30, stock: 4)
 Coffee.create(coffee_roaster: devocion, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/41frmNS/devocion-decaf.png", price: 22.30, stock: 2)
 Coffee.create(coffee_roaster: devocion, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/rs3jcHx/devocion-regular.png", price: 22.30, stock: 4)
@@ -85,24 +82,18 @@ Coffee.create(coffee_roaster: heart, blend: mrr, shop: coffee_shop, image:"https
 Coffee.create(coffee_roaster: heart, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/fktyZ0K/heart-lrd.png", price: 17.56, stock: 2)
 Coffee.create(coffee_roaster: heart, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/c38QmTK/heart-lrr.png", price: 17.56, stock: 4)
 
-Coffee.create(coffee_roaster: the_barn, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/zr3j7VB/barn-drd.png", price: 24.79, stock: 2)
-Coffee.create(coffee_roaster: the_barn, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/Fw8mK88/barn-drr.png", price: 24.79, stock: 4)
-Coffee.create(coffee_roaster: the_barn, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/KV0wR07/barn-mrd.png", price: 24.79, stock: 2)
-Coffee.create(coffee_roaster: the_barn, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/6yj2244/barn-mrr.png", price: 24.79, stock: 4)
-Coffee.create(coffee_roaster: the_barn, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/PTtSsTm/barn-lrd.png", price: 24.79, stock: 2)
-Coffee.create(coffee_roaster: the_barn, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/NxpXymm/barn-lrr.png", price: 24.79, stock: 4)
+
+Coffee.create(coffee_roaster: the_barn, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/GJYNQL8/1.png", price: 24.79, stock: 4)
+Coffee.create(coffee_roaster: the_barn, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/GJYNQL8/1.png", price: 24.79, stock: 2)
+Coffee.create(coffee_roaster: the_barn, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/GJYNQL8/1.png", price: 24.79, stock: 4)
 
 Coffee.create(coffee_roaster: coffee_supreme, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/S7RBdB5/coffee-supreme.png", price: 15.50, stock: 2)
 Coffee.create(coffee_roaster: coffee_supreme, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/S7RBdB5/coffee-supreme.png", price: 15.50, stock: 4)
 Coffee.create(coffee_roaster: coffee_supreme, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/S7RBdB5/coffee-supreme.png", price: 15.50, stock: 2)
 Coffee.create(coffee_roaster: coffee_supreme, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/S7RBdB5/coffee-supreme.png", price: 15.50, stock: 4)
-Coffee.create(coffee_roaster: coffee_supreme, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/S7RBdB5/coffee-supreme.png", price: 15.50, stock: 2)
-Coffee.create(coffee_roaster: coffee_supreme, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/S7RBdB5/coffee-supreme.png", price: 15.50, stock: 4)
 
 
-Coffee.create(coffee_roaster: seasaw, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/wJj2Hry/seasaw-drd.png", price: 35.77, stock: 2)
-Coffee.create(coffee_roaster: seasaw, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/yfDfYk7/seasaw-drr.png", price: 35.77, stock: 4)
-Coffee.create(coffee_roaster: seasaw, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/48VpWDX/seasaw-mrd.png", price: 35.77, stock: 2)
+
 Coffee.create(coffee_roaster: seasaw, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/h9srctf/seasaw-mrr.png", price: 35.77, stock: 4)
 Coffee.create(coffee_roaster: seasaw, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/tLXfc2M/seasaw-lrd.png", price: 35.77, stock: 2)
 Coffee.create(coffee_roaster: seasaw, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/k1XsRQ7/seasaw-lrr.png", price: 35.77, stock: 4)
@@ -110,13 +101,9 @@ Coffee.create(coffee_roaster: seasaw, blend: lrr, shop: coffee_shop, image:"http
 Coffee.create(coffee_roaster: switch, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/grqg7wz/switch-drd.png", price: 40.22, stock: 2)
 Coffee.create(coffee_roaster: switch, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/1RBxcF5/switch-drr.png", price: 40.22, stock: 4)
 Coffee.create(coffee_roaster: switch, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/tPzs44y/switch-mrd.png", price: 40.22, stock: 2)
-Coffee.create(coffee_roaster: switch, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/vkJyW7J/switch-mrr.png", price: 40.22, stock: 4)
-Coffee.create(coffee_roaster: switch, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/xqwxNB1/switch-lrd.png", price: 40.22, stock: 2)
-Coffee.create(coffee_roaster: switch, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/cYPgjPm/switch-lrr.png", price: 40.22, stock: 4)
 
-Coffee.create(coffee_roaster: coffee_1800, blend: drd, shop: coffee_shop, image:"https://i.ibb.co/SVfScGN/1800.png", price: 27.43, stock: 2)
-Coffee.create(coffee_roaster: coffee_1800, blend: drr, shop: coffee_shop, image:"https://i.ibb.co/SVfScGN/1800.png", price: 27.43, stock: 4)
-Coffee.create(coffee_roaster: coffee_1800, blend: mrd, shop: coffee_shop, image:"https://i.ibb.co/SVfScGN/1800.png", price: 27.43, stock: 2)
+
+
 Coffee.create(coffee_roaster: coffee_1800, blend: mrr, shop: coffee_shop, image:"https://i.ibb.co/SVfScGN/1800.png", price: 27.43, stock: 4)
 Coffee.create(coffee_roaster: coffee_1800, blend: lrd, shop: coffee_shop, image:"https://i.ibb.co/SVfScGN/1800.png", price: 27.43, stock: 2)
 Coffee.create(coffee_roaster: coffee_1800, blend: lrr, shop: coffee_shop, image:"https://i.ibb.co/SVfScGN/1800.png", price: 27.43, stock: 4)
