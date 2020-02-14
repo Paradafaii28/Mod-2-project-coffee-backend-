@@ -55,6 +55,7 @@ class CoffeesController < ApplicationController
             cart_id: nil
             )
             render json: @coffee
+            
     end 
   
 end
