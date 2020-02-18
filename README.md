@@ -22,6 +22,7 @@ You will need to have rails pre-installed to view this project. From there you w
 
 * Ruby on Rails 
 * Active Record 
+* Postman 
 
 ### Authors
 
