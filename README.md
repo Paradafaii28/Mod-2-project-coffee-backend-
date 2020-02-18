@@ -11,17 +11,6 @@ This was a one week, Mod 2, fullstack project. We made this for a singular coffe
 
 * Ruby version - ruby 2.6.1
 
-* System dependencies
-    * rails
-    * sqlite3
-    * puma
-    * bootsnap
-    * rack-cors
-    * byebug
-    * spring
-    * spring-watcher-listen'
-    * tzinfo-data
-
 * Setup
 You will need to have rails pre-installed to view this project. From there you will need to: 
     * bundle install 
