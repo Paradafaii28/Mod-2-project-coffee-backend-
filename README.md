@@ -1,24 +1,44 @@
-# README
+# Module 2 Fullstack Coffee App 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This was a one week, Mod 2, fullstack project. We made this for a singular coffee shop, one who deals with providing a number of roasters at their shop. Our intention was to create a system for ordering and tracking inventory. Feel free to take a look around -- 
 
-Things you may want to cover:
 
-* Ruby version
+![](backendGIF.gif)
+
+
+---
+
+
+* Ruby version - ruby 2.6.1
 
 * System dependencies
+    * rails
+    * sqlite3
+    * puma
+    * bootsnap
+    * rack-cors
+    * byebug
+    * spring
+    * spring-watcher-listen'
+    * tzinfo-data
 
-* Configuration
+* Setup
+You will need to have rails pre-installed to view this project. From there you will need to: 
+    * bundle install 
+    * rails db:migrate
+    * rails db:seed 
+    * run rails s
 
-* Database creation
+### Technologies 
 
-* Database initialization
+* Ruby on Rails 
+* Active Record 
+* Javascript 
 
-* How to run the test suite
+### Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+* Parada (Alice) Richardson - [Github Repo](https://github.com/Paradafaii28)
+* Miwha Geschwind - [Github Repo](https://github.com/miwhag)
 
-* Deployment instructions
 
-* ...
+
